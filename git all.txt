@@ -1,0 +1,66 @@
+configuration..............................
+1.git config --global user.name mehrab656
+2.git config --global user.email hossainmehraab@gmail.com
+.............................................
+check config............
+3. git config --list
+chek diectory.............
+4. pwd
+create directory ................
+5. mkdir git_demo
+6.cd git_demo
+
+to track changes ned to add
+7.git init
+check status...........
+8.git status
+ad...........
+9.git add .
+commit........
+10.git commit -m 'asdasdasd'
+git remote add....................................
+11.git remote add origin 'link'
+12.git remote -v
+change origin url:
+13.git remote set-url origin new.git.url/here
+14. git checkout -b 'branch name. // add branch
+
+//////////////////////////----------------------
+Git global setup
+git config --global user.name "Mehrab Hossain"
+git config --global user.email "hossainmehraab@gmail.com"
+
+Create a new repository
+git clone https://gitlab.com/mehrab656/passwordassistant.git
+cd passwordassistant
+git switch -c main
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main
+
+Push an existing folder
+cd existing_folder
+git init --initial-branch=main
+git remote add origin https://gitlab.com/mehrab656/passwordassistant.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/mehrab656/passwordassistant.git
+git push -u origin --all
+git push -u origin --tags
+
+
+
+
+
+
+
+
+
+
+
